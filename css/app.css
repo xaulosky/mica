@@ -1,0 +1,178 @@
+@font-face {
+    font-family: "Brandon Grotesque";
+    src: url("./fonts/brandon.otf");
+}
+
+:root {
+    --colorprimario: #021F59;
+    --textos: #0A4273;
+    --colorsecundario: #EBF3F4;
+    --brandon: "Brandon Grotesque", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --nato: Noto Sans CJK JP;
+}
+
+html {
+    font-size: 62.5%;
+    /* 10px */
+}
+
+body {
+    font-size: 1.5rem;
+}
+
+
+/* GENERALES */
+
+img {
+    width: 100%;
+}
+
+.letter-spacing-6 {
+    letter-spacing: 0.6rem !important;
+}
+
+.font-nato {
+    font-family: var(--nato);
+}
+
+.font-brandon {
+    font-family: var(--brandon);
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.color-azul-claro {
+    color: var(--textos);
+}
+
+.zi9 {
+    z-index: 9;
+}
+
+.pl-50 {
+    padding-left: 5rem;
+}
+
+.w-95 {
+    max-width: 95rem;
+}
+
+.w-500 {
+    max-width: 50rem;
+}
+
+.w-624 {
+    max-width: 62.4rem;
+}
+
+.h-250 {
+    height: 25rem;
+}
+
+.h-231 {
+    height: 23.1rem;
+}
+
+.h-300 {
+    height: 30rem;
+}
+
+.font-size-14 {
+    font-size: 1.4rem;
+}
+
+.font-size-16 {
+    font-size: 1.6rem;
+}
+
+.font-size-24 {
+    font-size: 2.4rem;
+}
+
+.font-size-32 {
+    font-size: 3.2rem;
+}
+
+.font-size-40 {
+    font-size: 4rem;
+}
+
+.bg-secundario {
+    background-color: var(--colorsecundario);
+}
+
+
+/* PERSONALIZADOS */
+
+
+/* menu top */
+
+.atras-menu {
+    height: 15rem;
+}
+
+.menutop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15rem;
+    background-color: rgba(255, 255, 255, 0.97);
+    color: var(--colorprimario);
+    padding: 50px;
+    z-index: 99;
+}
+
+.menutop a {
+    color: var(--colorprimario);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.top-hero {
+    min-height: 45rem;
+    background-image: url(/img/heroimg.png);
+    font-family: var(--brandon);
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.6rem;
+    background-size: cover;
+}
+
+.logo {
+    width: 27.559rem;
+    height: 5rem;
+}
+
+
+/* SECCION 2 */
+
+.cont-img2 {
+    margin-top: -14.8rem;
+    max-width: 105rem;
+    position: relative;
+    padding: 0;
+    margin-bottom: 5rem;
+    ;
+}
+
+.img2 {
+    width: 100%;
+    position: relative;
+}
+
+.cont-img2 div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #021F59;
+    opacity: 0.6;
+}
