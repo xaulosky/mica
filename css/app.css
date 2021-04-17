@@ -8,7 +8,7 @@
     --textos: #0A4273;
     --colorsecundario: #EBF3F4;
     --brandon: "Brandon Grotesque", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --nato: Noto Sans CJK JP;
+    --noto: "Noto Sans CJK JP";
 }
 
 html {
@@ -27,12 +27,28 @@ img {
     width: 100%;
 }
 
+.color-primario {
+    color: var(--colorprimario);
+}
+
+.line-height-32 {
+    line-height: 3.2rem;
+}
+
+.line-height-34 {
+    line-height: 3.4rem;
+}
+
+.letter-spasing-1 {
+    letter-spacing: 1px;
+}
+
 .letter-spacing-6 {
     letter-spacing: 0.6rem !important;
 }
 
-.font-nato {
-    font-family: var(--nato);
+.font-noto {
+    font-family: var(--noto);
 }
 
 .font-brandon {
