@@ -11,7 +11,9 @@
     <!-- normaliza -->
     <link rel="stylesheet" href="css/normalize.css">
     <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <!-- carrusel -->
+    <link rel="stylesheet" href="./css/carrusel.css">
     <!-- personalizado -->
     <link rel="stylesheet" href="css/app.css">
 
@@ -19,12 +21,16 @@
     <!-- JAVASCRIPT -->
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <!-- jquery -->
 
+    <!-- carrusel -->
+    <script src="./js/carrusel,js"></script>
 </head>
 
 <body>
-    <div class="container-fluid p-0 ">
-        <!-- ============= COMPONENT ============== -->
+    <div class="container-fluid p-0">
+
+        <!-- ============= COMPONENT MENU ============== -->
         <nav class="navbar navbar-expand-lg   menutop">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
@@ -52,23 +58,27 @@
             <!-- container-fluid.// -->
         </nav>
         <!-- ============= COMPONENT END// ============== -->
-
+        <!-- HERO -->
         <section class="container-fluid top-hero ">
             <div class="atras-menu">
             </div>
             <div class="d-flex flex-column justify-content-center h-300 pl-50">
 
-                <p class="mb-3 text-uppercase font-brandon">Ama City </p>
-                <p class="font-size-40 font-noto font-weight-bold">あま市ホームページ制作</p>
+                <h2 class="mb-3 english color-white">Ama City </h2>
+                <h1 class="font-size-40 font-noto font-weight-bold color-white titulo-hero">あま市ホームページ制作</h1>
             </div>
         </section>
+        <!-- HERO -->
+        <!-- SECCION1 -->
         <section class="container ">
-            <div class="row text-center d-flex h-231 justify-content-center align-items-center ">
-                <p class="w-95 font-noto font-weight-bold color-primario line-height-34 letter-spasing-1">
+            <div class="row text-center d-flex h-231 justify-content-center align-items-center px-sm-5 ">
+                <span class="w-95">
                     あま市で地域に密着した制作会社です。デザインが良いのは当たり前、戦略的なホームページ制作&グラフィックデザインから、メンテナンス・更新のお手伝いまでトータルにサポート。お客様のパートナーとして寄り添う姿勢を大切にしています。
-                </p>
+                </span>
             </div>
         </section>
+        <!-- SECCION1 -->
+        <!-- SECCION2 -->
         <section class="container-fluid p-0">
             <div class="h-250 bg-secundario"></div>
             <div class="container">
@@ -76,25 +86,27 @@
                     <div class="zi9 cont-img2">
                         <img src="./img/img2.png" alt="" class="img2">
                         <div class="color-white d-flex flex-column justify-content-center align-items-center pt-5">
-                            <p class="text-uppercase font-brandon font-weight-bold font-size-14 letter-spacing-6 ">
-                                Creative team for your business</p>
-                            <p class="font-size-32 w-624 text-center font-noto font-weight-bold">クリエイティブチームが一丸となって お客様と共に創り上げます
-                            </p>
+                            <h2 class="english color-white">
+                                Creative team for your business</h2>
+                            <h2 class=" w-624 text-center color-white">クリエイティブチームが一丸となって お客様と共に創り上げます
+                            </h2>
                         </div>
                     </div>
 
                 </div>
             </div>
         </section>
+        <!-- SECCION2 -->
+        <!-- SECCION3 -->
         <section class="container mt-5">
-
             <div class="row">
                 <div class=" col-sm-12 col-md-6">
-                    <img src="./img/img3.png" alt="">
+                    <img src="./img/img3.png" alt="" class="img-left">
                 </div>
-                <div class="col-sm-12 col-md-6 col-6  w-500">
-                    <h3 class="font-noto font-weight-bold font-size-24 pb-3 line-height-32">愛されるブランドを共に育てる</h3>
-                    <p class="font-brandon font-size-16 color-azul-claro">
+                <div class="col-sm-12 col-md-6 col-6 w-500 ps-5 ">
+                    <h3 class="pb-3">
+                        愛されるブランドを共に育てる</h3>
+                    <p>
                         Webサイトやパンフレット、チラシ、名刺などのデザインは、製品・サービスの印象を左右します。私たちは戦略的なデザインを駆使して、製品・サービスのイメージをブラッシュアップし、企業イメージ・企業価値を変えていきます。<br>
                         <br> 消費者はもちろん、従業員やお取引先など、御社に関わるすべてのステークホルダーに愛されるデザインを。<br> <br>それが私たちの目指すブランドデザインです。
 
@@ -102,11 +114,10 @@
                 </div>
             </div>
             <div class="row">
-
                 <div class="col-sm-12 col-md-6 col-6  d-flex flex-column align-items-end">
                     <div class="pe-5">
-                        <h3 class="font-noto font-weight-bold font-size-24 pb-3">愛されるブランドを共に育てる</h3>
-                        <p class="font-brandon font-size-16 color-azul-claro w-500 line-height-32">
+                        <h3 class="pb-3">愛されるブランドを共に育てる</h3>
+                        <p class="w-500">
                             絵に描いた餅は食べられません。 どんな企業でも予算には限りがあります。私たちは限られた予算の中で、実現可能な最善＋最大の方法をご提案します。
                             <br> <br>表面的な制作だけでは「デザイン」とは言えません。目に見える表面的な情報だけではなく、みなさまの心の奥深くに眠っている想いを汲み上げ、形にしていく。
 
@@ -117,12 +128,120 @@
 
                 </div>
                 <div class=" col-sm-12 col-md-6">
-                    <img src="./img/img4.png" alt="">
+                    <img src="./img/img4.png" alt="" class="img-right">
                 </div>
             </div>
 
         </section>
+        <!-- SECCION3 -->
+        <!-- SECCION4 -->
+        <section class="container-fluid bg-secundario d-flex flex-column align-items-center pt-75 mt-80">
+            <div class="row mb-5">
+                <div class="w-360 mb-5">
+                    <h2 class="english text-center">
+                        “Self-ness” is a best practice</h2>
+                    <h2 class="text-center">「自分らしさ」が
+                        <br>ベストプラクティス
+                    </h2>
+                </div>
+                <div class="container d-flex justify-content-center">
+                    <p class="w-1050">
+                        さまざまな製品・サービスが溢れる現代。他社との僅かな「差」を競って消耗していませんか？他社との「違い」を見つけること、「自分らしさ」を確立することが、ベストプラクティスです。<br>
+                        <br>製品・サービスの情報だけではなく、そこに込められた想い・情熱を伝えること。表面的な情報ではなく、内面にある想い・情熱を引きだしてデザインすること。それがファーストステップのクリエイティブ・ポリシーです。
+                    </p>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class=" col-sm-12 col-md-6">
+                    <img src="./img/img5.png" alt="" class="pe-5 img-left">
+                </div>
+                <div class="col-sm-12 col-md-6 col-65 ps-5">
+                    <div class="w-500">
+                        <h3 class="pb-3">
+                            伝えたい想いに相応しい <br> オーダーメイドデザイン
+                        </h3>
+                        <p>
+                            製品やサービスの情報、伝えたい想い。それを画一的なテンプレートに詰め込んでしまうと、せっかくの個性を押し潰してしまいます。<br>
+                            <br>オリジナルの想いを潰さないためには、オーダーメイドの箱が必要です。 製品やサービスの個性が輝くデザインを、メッセージの魅力を引き出すデザインを、ひとつひとつオーダーメイドで提案いたします。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-6  d-flex flex-column align-items-end">
+                    <div class="w-500">
+                        <h3 class="pb-3">愛されるブランドを共に育てる</h3>
+                        <p>
+                            絵に描いた餅は食べられません。 どんな企業でも予算には限りがあります。私たちは限られた予算の中で、実現可能な最善＋最大の方法をご提案します。
+                            <br> <br>表面的な制作だけでは「デザイン」とは言えません。目に見える表面的な情報だけではなく、みなさまの心の奥深くに眠っている想いを汲み上げ、形にしていく。
 
+                            <br><br> それが私たちの考える、本当の「デザイン」です。
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class=" col-sm-12 col-md-6">
+                    <img src="./img/img6.png" alt="" class="ps-5 img-right">
+                </div>
+            </div>
+            <div class="row mb-5 mt-50 pb-80">
+                <div class=" col-sm-12 col-md-6">
+                    <img src="./img/img7.png" alt="" class="pe-5 img-left">
+                </div>
+                <div class="col-sm-12 col-md-6 col-6 ps-5">
+                    <div class="w-500">
+                        <h3 class="pb-3">
+                            愛されるブランドを共に育てる</h3>
+                        <p>
+                            Webサイトやパンフレット、チラシ、名刺などのデザインは、製品・サービスの印象を左右します。私たちは戦略的なデザインを駆使して、製品・サービスのイメージをブラッシュアップし、企業イメージ・企業価値を変えていきます。<br>
+                            <br> 消費者はもちろん、従業員やお取引先など、御社に関わるすべてのステークホルダーに愛されるデザインを。<br> <br>それが私たちの目指すブランドデザインです。
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </section>
+        <!-- SECCION4 -->
+
+        <!-- SECCION5 -->
+        <section class="container py-80">
+            <div class="text-center mb-50 d-flex align-items-center flex-column">
+                <h2 class="english ">team members creative policy</h2>
+                <h2 class="w-860">ファーストステップのクリエイティブ・ポリシーは チームメンバーに染み込んである
+                </h2>
+            </div>
+            <div class="fondo-azul-transparente h-350 p-0 overflow-hidden grupofotos">
+                <div class="row w-1050 h-350 ">
+                    <div class=" col-6 zi9 d-flex flex-column justify-content-center align-items-end ">
+                        <div class=" w-450">
+                            <h3 class="color-white ">自分らしさ」を伝えましょう</h3>
+                            <p class="color-white ">
+                                僅かな「差」を競うのではなく、小さくても「違い」を見つけること。製品・サービスの情報だけではなく、そこに込められた想い・情熱をデザインすること。
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="col-6 zi9 d-flex justify-content-center align-items-center">
+                        <button class="boton boton-secundario">スタッフ紹介を見る</button>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+        <!-- SECCION5 -->
+
+        <!-- SECCION6 -->
+        <section class="container-fluid py-80 bg-secundario">a</section>
+        <!-- SECCION6 -->
 
     </div>
 </body>
