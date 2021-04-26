@@ -205,7 +205,7 @@ img {
 .p-25 {
   padding: 2.5rem;
 }
-.pr-75{
+.pr-75 {
   padding-right: 7.5rem;
 }
 .pl-25 {
@@ -332,6 +332,9 @@ img {
 .pb-80 {
   padding-bottom: 8rem;
 }
+.mt--150{
+  margin-top: -15rem;
+}
 .mt-50 {
   margin-top: 5rem;
 }
@@ -341,7 +344,7 @@ img {
 .mt-150 {
   margin-top: 15rem;
 }
-.ml--75{
+.ml--75 {
   margin-left: -7.5rem !important;
 }
 .mb-20 {
@@ -350,7 +353,7 @@ img {
 .mb-30 {
   margin-bottom: 3rem;
 }
-.mb-40{
+.mb-40 {
   margin-bottom: 4rem;
 }
 .mb-50 {
@@ -359,6 +362,9 @@ img {
 
 .mb-80 {
   margin-bottom: 8rem;
+}
+.mb-100{
+  margin-bottom: 10rem;
 }
 .mt-menos-130 {
   margin-top: -13rem;
@@ -601,8 +607,8 @@ img {
   height: 31.1rem !important;
   padding-top: 3rem;
 }
-.bg-section6 {
-  background-color: #ebf3f4;
+.bg-section6, .bg-seccion {
+  background-color: var(--colorsecundario);
 }
 .item {
   display: flex;
@@ -629,7 +635,9 @@ p.botoncito {
   color: #0a4273;
   letter-spacing: 3.2px;
 }
-
+.border-white{
+  border:1px solid #fff;
+}
 .fondo-boton {
   z-index: 3;
   position: absolute;
@@ -640,6 +648,10 @@ p.botoncito {
   height: 100%;
   transition: all 0.2s ease-in-out;
 }
+.boton-azul{
+  background-color: #021F59;
+}
+
 .botoncito-cont:hover .fondo-boton {
   top: 0;
   left: 0;
@@ -717,3 +729,32 @@ footer .english {
 }
 
 /* PLANTILLA 2 */
+@media (min-width: 1500px) {
+  img.img-left2 {
+    width: 800px !important;
+    margin-left: -350px !important;
+  }
+  img.img-right2 {
+    width: 800px !important;
+    padding-left: -350px !important;
+  }
+}
+.pagina2 img.imagen1 , .pagina3 img.imagen1{
+  box-shadow: -20px -20px 0px 0px #d7e2e4 !important;
+}
+
+@media (min-width: 768px) {
+  .pagina2 img.imagen1 , .pagina3 img.imagen1 {
+    box-shadow: -80px -80px 0px 0px #d7e2e4 !important;
+  }
+}
+
+
+/* plantilla 3 */
+.fondo-pc-azul{
+  background-image: url(../img/produce/img1.png);
+  box-shadow:inset 0 0 0 2000px rgba(2, 31, 89, 0.6);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
